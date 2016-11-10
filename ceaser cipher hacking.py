@@ -1,6 +1,6 @@
-msg = 'PBQRPENSG YNO EBPXEF! '
-ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ '
-
+msg = raw_input(' What is your fate  Jolena? ')
+ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+msg = msg.upper()
 for key in range(len(ALPHABET) ) :
     result = ' '
     for symbol in msg:
@@ -16,4 +16,4 @@ for key in range(len(ALPHABET) ) :
         else:
             result = result + symbol
 
-            print(' The fates declare your number is.........%s! %s' % (key, result)) 
+    print(' The fates declare your number is.........%s! %s' % (key, result)) 
